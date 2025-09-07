@@ -1,0 +1,15 @@
+Training Set Statistics:
+Vocabulary Coverage: 100.00%
+OOV Percentage: 0.00%
+Mean Caption Length: 54.31
+Median Caption Length: 53.00
+Min Caption Length: 22
+Max Caption Length: 174
+
+Validation Set Statistics:
+Vocabulary Coverage: 99.04%
+OOV Percentage: 0.96%
+Mean Caption Length: 45.65
+Median Caption Length: 43.00
+Min Caption Length: 24
+Max Caption Length: 101

@@ -1,1 +1,7 @@
-Datasets/
+# Ignore dataset CSVs
+Datasets/RSICD/train.csv
+Datasets/RSICD/test.csv
+Datasets/RSICD/valid.csv
+
+# Ignore large model weights
+Assignments/Assignments_1/best_caption_model_resnet18.pth
