@@ -1,0 +1,51 @@
+name: ee782_a2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - jupyter
+  - notebook
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - pip:
+    # Computer Vision
+    - opencv-python
+    - mediapipe
+    - face_recognition
+    - deepface
+    
+    # Audio Processing & Speech Recognition
+    - openai-whisper
+    - SpeechRecognition
+    - pyaudio
+    
+    # Text-to-Speech
+    - gTTS
+    - pyttsx3
+    - TTS
+    
+    # Audio Playback
+    - pygame
+    - playsound
+    
+    # Machine Learning & LLM
+    - transformers
+    - torch
+    - torchvision
+    - torchaudio
+    
+    # LLM and Agent frameworks
+    - langchain
+    - google-generativeai
+    
+    # Additional useful packages
+    - requests
+    - pillow
+    - librosa
+    - soundfile
